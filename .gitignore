@@ -1,0 +1,22 @@
+## Scala Default ignore
+*.class
+*.log
+
+# Intellij Project
+.idea
+.idea_modules
+atlassian-ide-plugin.xml
+
+# sbt specific
+.cache/
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# for Mac
+.DS_Store
